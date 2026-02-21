@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://infowaves.co.in/karthi/info-Email/
 export default defineConfig({
-  base: '/karthi/info-Email/',
+  base: '/',
   plugins: [react(), tailwindcss()],
 })
