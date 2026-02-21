@@ -7,7 +7,7 @@ import Logs from './pages/Logs';
 
 function App() {
   return (
-    <BrowserRouter basename="/karthi/info-Email/">
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Dashboard />} />
